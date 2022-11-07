@@ -6,6 +6,7 @@ const computerPaddle = new Paddle(document.getElementById("computer-paddle"))
 const playerScoreElem = document.getElementById("player-score")
 const computerScoreElem = document.getElementById("computer-score")
 
+const socket = io();
 
 let lastTime
 function update(time) {
