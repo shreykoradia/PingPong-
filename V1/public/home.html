@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong it up</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h3>Once You Play Pong there's no going back!</h3>
+    <div class="room-id-game">
+        <button class="generate-room">Generate Room</button>
+    </div>
+    </div>
+    <div>    
+        <p id="room-code"></p>
+    </div>
+    
+    <script src="room.js" type="module"></script>
+</body>
+</html>
