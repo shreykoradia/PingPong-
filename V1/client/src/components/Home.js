@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import { Link } from 'react-router-dom'
 import randomCodeGenerator from '../utils/randomCodeGenerator'
-import "./home.css"
+import "./  home.css"
 
 const Home = () => {
     const [roomCode , setRoomCode] = useState('');
