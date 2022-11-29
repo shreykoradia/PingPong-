@@ -1,0 +1,50 @@
+.container{
+    display:grid;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0edfee;
+    text-align: center;
+    margin: 1rem;
+    font-weight: 600;
+    font-size: large;
+}
+.homepage-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+  
+.generate-room{
+  margin-top: 4rem;
+  padding: 1rem;
+  background-color: thistle;
+}
+.join-room{
+    display: flex;
+    flex-direction: column;
+}
+
+.join-room>input {
+    font-size: 15px;
+    width: 150px;
+    line-height: 1.5em;
+}
+
+.join-room-btn{
+    background: linear-gradient( #0edfee, #1132da 15px, #e7dce7 5px, #6cc160 2px);
+    border-bottom: 3px solid rgba(63, 29, 188, 0.5);
+    text-shadow: 2px 2px 1px #0edfee , 3px 2px 1px #1d3031;
+    margin-top: 12px;
+}
+.create-room-btn{
+    top: 2px;
+    background: linear-gradient( #0edfee, #1132da 15px, #e7dce7 5px, #6cc160 2px);
+    border-bottom: 3px solid rgba(63, 29, 188, 0.5);
+    text-shadow: 2px 2px 1px #0edfee , 3px 2px 1px #1d3031;
+}
+
+.homepage-form>h1 {
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 30px;
+  }
+
